@@ -39,7 +39,7 @@ Before you click the "Complete Assessment" button on the Learning Platform, add 
 
    > The module Kids.js contains that code.
 
-   The first step is to target our document and tell the event listener what type of event it will be listening for. It's "click" in this case. Then we create a variable which will contain the item that was clicked. We do this by using ".target" which looks at the click event's meta data to see which item was the subject of the event. Next, we need to make sure that the event listener is listening for a specific type of item to be clicked. We use an if statement to compare the dataset.type of the item clicked with our desired type, which in this case is "child". If those are the same, the window alert will pop up. The pop-up message is created by taking different dataset information from the item clicked and concatenating it into a string.
+   > The first step is to target our document and tell the event listener what type of event it will be listening for. It's "click" in this case. Then we create a variable which will contain the item that was clicked. We do this by using ".target" which looks at the click event's meta data to see which item was the subject of the event. Next, we need to make sure that the event listener is listening for a specific type of item to be clicked. We use an if statement to compare the dataset.type of the item clicked with our desired type, which in this case is "child". If those are the same, the window alert will pop up. The pop-up message is created by taking different dataset information from the item clicked and concatenating it into a string.
 
 2. In the **Pairings** module, why must the `findCelebrityMatch()` function be invoked inside the `for..of` loop that iterates the kids array?
 
